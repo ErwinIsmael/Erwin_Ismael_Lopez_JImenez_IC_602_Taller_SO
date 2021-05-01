@@ -87,7 +87,7 @@ void encontrar(datoproceso a[]){
 
 
 int main (){
-    printf("\nIngrese el numero de procesos: ");
+    printf("\nIngrese el numero de procesos a ejecutar: ");
     scanf("%d",&n);
     datoproceso proceso[n];
     printf("\n");
