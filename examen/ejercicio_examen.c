@@ -9,15 +9,15 @@ char *puntero;
 x='x';
 p=&x;
 
-printf("valor de puntero : %c \n",*p);
+printf("valor de contenido puntero p: %c \n",*p);
 p=p+1;
-printf("valoor de puntero: %c \n",*p);
+printf("valoor de contenido de puntero p: %c \n",*p);
 p=p+2;
 printf("el valor de puntero p: %c \n",*p);
 y='y';
 puntero=&y;
 
-printf("valor de puntero: %c \n",*puntero);
+printf("valor de contenido de puntero "puntero": %c \n",*puntero);
 
 return 0;
 }
