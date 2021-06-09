@@ -61,7 +61,7 @@ int main(int argc, char *argv[]){
 				cont++;
 			}
 			printf("\nTotal de palabras leídas: %d", cont);
-			cerrar_archivo(archivo);
+			
 //-------------------------------------------------------------------------------------------------------
 
 
